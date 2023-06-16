@@ -99,7 +99,7 @@ More details can be found [here](https://github.com/ndhers/My-Portfolio/tree/mai
 
 For numerous academic projects on time-series analysis, we had to deal with data that was irregularly sampled. This is especially true in the field of healthcase or when dealing with survey data. This poses a large problem for time series analysis and forecasting, as deep learning models often use fixed-dimension representations. In this project, the dataset consists in time series data from patients in ICU and the goal is to predict whether they would survive or not. The collected data per patient spans multiple days and multiple variables (e.g. temperature, weight, BP, etc). Note patients, because they stay in ICU for various amounts of time, have different amounts of data available. 
 
-Dealing with these issues, required looking at processing techniques that can pad such time series sequences the same way sentences are padded in Natural Language Processing. Using NLP-inspired models like Transformers that can attend to potentially infinite time steps in the past eliminated the need to have time as a separate input feature. 
+Dealing with these issues required looking at NLP-inspired pre-processing techniques such as sequence padding. Moreover, the use of NLP-inspired models like Transformers was shown to eliminate the need to have time as a separate input feature. 
 
 The goal is find ways to efficiently and accurately tell whether ICU patients will survive or not given the data sampled in the past. 
 
