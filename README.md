@@ -8,6 +8,7 @@ My background is in Mechanical Engineering (Bachelor) as well as Computer Scienc
 I can be reached at <nicolasdhers@g.harvard.edu> or through [LinkedIn](https://www.linkedin.com/in/nicolas-dhers/).
 
 # Table of Contents
+1. [Data Analysis](#data-analysis)
 2. [Python Package for Automatic Differentiation](#python-package-for-automatic-differentiation)
 3. [Machine Learning](#machine-learning)
 4. [Deep Learning: Computer Vision](#deep-learning-computer-vision)
