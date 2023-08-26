@@ -21,6 +21,10 @@ different cohorts are also computed and leveraged for a complete analysis. Trend
 
 ![img not available](https://raw.githubusercontent.com/ndhers/My-Portfolio/main/blob/cust_overlap.png)
 
+And here is the cohort analysis output for Chipotle demonstrating repurchase rate for different 'join-in' cohorts:
+
+![img not available](https://raw.githubusercontent.com/ndhers/My-Portfolio/main/blob/cohort.png)
+
 Even though Dunkin Donuts' brand is very strong and the chain has shown increasing revenue market share over the past quarters, my final recommendation is Chipotle. Given the results shown in the output excel [file](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/output.xlsx) and
 [report](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/Summary_and_Takeaways.docx), Chipotle dominates its counterparts in all of revenue market share, order volume market share and total number of customers. Chipotle is also repeatedly among the top restaurant chains in revenue market shares within those states that brought most overall revenue.
 It is the leading restaurant chain by revenue market share in all of the household income brackets.
