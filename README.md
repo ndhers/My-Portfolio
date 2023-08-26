@@ -20,7 +20,7 @@ I can be reached at <nicolasdhers@g.harvard.edu> or through [LinkedIn](https://w
 
 ![img not available](https://raw.githubusercontent.com/ndhers/My-Portfolio/main//blob/due_dil.png)
 
-The corresponding code and documementation can be found [here](https://github.com/ndhers/My-Portfolio/tree/main/Due_Diligence). In this project, I provide a complete analysis on eight american fast-food restaurant chains. By looking at several metrics and trends over the past couple years, I demonstrate which fast-food chain looks financially healthiest and provide an investment recommendation. 
+The corresponding code and documementation can be found [here](https://github.com/ndhers/My-Portfolio/tree/main/Due_Diligence). In this project, I provide a complete analysis on nine american fast-food restaurant chains. By looking at several metrics and trends over the past couple years, I demonstrate which fast-food chain looks financially healthiest and provide an investment recommendation. 
 
 The code, report and data can be found [here](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence).
 
