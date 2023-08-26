@@ -8,11 +8,20 @@ My background is in Mechanical Engineering (Bachelor) as well as Computer Scienc
 I can be reached at <nicolasdhers@g.harvard.edu> or through [LinkedIn](https://www.linkedin.com/in/nicolas-dhers/).
 
 # Table of Contents
-1. [Python Package for Automatic Differentiation](#python-package-for-automatic-differentiation)
-2. [Machine Learning](#machine-learning)
-3. [Deep Learning: Computer Vision](#deep-learning-computer-vision)
-4. [Deep Learning: NLP](#deep-learning-nlp)
+2. [Python Package for Automatic Differentiation](#python-package-for-automatic-differentiation)
+3. [Machine Learning](#machine-learning)
+4. [Deep Learning: Computer Vision](#deep-learning-computer-vision)
+5. [Deep Learning: NLP](#deep-learning-nlp)
 
+## Data Analysis 
+
+### [Due Diligence Analysis for Fast-Food Chain Investment](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/)
+
+![img not available](https://raw.githubusercontent.com/ndhers/My-Portfolio/main//blob/due_dil.png)
+
+The corresponding code and documementation can be found [here](https://github.com/ndhers/My-Portfolio/tree/main/Due_Diligence). In this project, I provide a complete analysis on eight american fast-food restaurant chains. By looking at several metrics and trends over the past couple years, I demonstrate which fast-food chain looks financially healthiest and provide an investment recommendation. 
+
+The code, report and data can be found [here](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence).
 
 ## [Python Package for Automatic Differentiation](https://github.com/ndhers/My-Portfolio/blob/main/Automatic_Differentiation/)
 
