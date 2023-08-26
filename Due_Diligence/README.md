@@ -4,7 +4,7 @@ In this project, I wanted to run an outside-in diligence analysis with transacti
 I am personally interested in the applications of data science and data anlysis in the context of alternative investments like Private Equity. I believe that leveraging alternative data like transaction-level data shown here, when combined with overall company financials such as revenue, margins, EBITDA and free cash flows can help drive smarter and better investment decisions.
 
 The data looks at transaction information from 9 different restaurant chains: Chipotle, PaneraBread, Dunkin Donuts, Wingstop, Subway, Taco Bell, Jimmy John’s, Sweetgreen, Shake Shack and Burger King. The dataset spans transactions that occurred between 2019 and 2022.
-It can be found in this [folder](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/data/). 
+Since the dataset was too large, I could not upload it here. I will provide a quick overview instead. There are four different data tables.
 Each of the four tables serves a different purpose:
 <ul>
 <li>Qsr_case_study_transactions_20230504 looks at order information. For example, it includes information about the order price, discount, item bought and quantity.</li> 
