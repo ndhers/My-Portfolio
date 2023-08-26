@@ -18,9 +18,9 @@ For more details, please consult this [poster](https://github.com/ndhers/My-Port
 
 ## Computer Vision Approach
 
-The corresponding code can be found in this [subdirectory](https://github.com/ndhers/My-Portfolio/blob/main/Aircraft_Performance/artificial_img/).
+The corresponding code can be found in this [subdirectory](https://github.com/ndhers/My-Portfolio/blob/main/Aircraft_Performance/artifical_img/).
 
-This approach is very different to the one above. Here, I created 'artificial images' (using this [script](https://github.com/ndhers/My-Portfolio/blob/main/Aircraft_Performance/artificial_img/CNN_Image_builder.py)) by plotting airfoils using cubic spline interpolation from the discrete 2D points. 
+This approach is very different to the one above. Here, I created 'artificial images' (using this [script](https://github.com/ndhers/My-Portfolio/blob/main/Aircraft_Performance/artifical_img/CNN_Image_builder.py)) by plotting airfoils using cubic spline interpolation from the discrete 2D points. 
 From there, I tweaked the images so they could incorporate the same input information that the previous approach had, namely the angle of attack and the freestream velocity. I rotated the airfoils based on angle of attack and I adjusted pixel intensity proportionally to the freestream velocity.
 
 Using these images as input as well as the Xfoil generated aerodynamic coefficients as output, I was able to achieve better performance than the first approach. Most importantly, my training was much faster as the number of trainable parameters was much less since CNNs share weights through sliding filters.

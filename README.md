@@ -8,11 +8,21 @@ My background is in Mechanical Engineering (Bachelor) as well as Computer Scienc
 I can be reached at <nicolasdhers@g.harvard.edu> or through [LinkedIn](https://www.linkedin.com/in/nicolas-dhers/).
 
 # Table of Contents
-1. [Python Package for Automatic Differentiation](#python-package-for-automatic-differentiation)
-2. [Machine Learning](#machine-learning)
-3. [Deep Learning: Computer Vision](#deep-learning-computer-vision)
-4. [Deep Learning: NLP](#deep-learning-nlp)
+1. [Data Analysis](#data-analysis)
+2. [Python Package for Automatic Differentiation](#python-package-for-automatic-differentiation)
+3. [Machine Learning](#machine-learning)
+4. [Deep Learning: Computer Vision](#deep-learning-computer-vision)
+5. [Deep Learning: NLP](#deep-learning-nlp)
 
+## Data Analysis 
+
+### [Due Diligence Analysis for Fast-Food Chain Investment](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/)
+
+![img not available](https://raw.githubusercontent.com/ndhers/My-Portfolio/main//blob/due_dil.png)
+
+The corresponding code and documementation can be found [here](https://github.com/ndhers/My-Portfolio/tree/main/Due_Diligence). In this project, I provide a complete analysis on eight american fast-food restaurant chains. By looking at several metrics and trends over the past couple years, I demonstrate which fast-food chain looks financially healthiest and provide an investment recommendation. 
+
+The code, report and data can be found [here](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence).
 
 ## [Python Package for Automatic Differentiation](https://github.com/ndhers/My-Portfolio/blob/main/Automatic_Differentiation/)
 
@@ -52,7 +62,7 @@ The code is available [here](https://github.com/ndhers/My-Portfolio/tree/main/Pa
 
 Computer vision has made tremendous leaps in the recent years due to the development of more complex algorithms and the increase in computational power. Its use in healthcare has also grown and it has become an important tool in helping doctors make diagnosis using image data. I have always been passionate about computer vision and wanted to use this project as an opportunity to demonstrate how powerful it can be in such an important field. 
 
-In this particular project, the goal is to determine which patients are sick and which are not based on X-ray images of their chest. If patients are sick, the output should state which pathology they suffer from. I looked at about 15 different pathologies. Note that patients can suffer from multiple illnesses at the same time. By also highlighting which part of the X-rays drove the output, this model can help doctors make faster and more informed decisions. I would like to think that some of the medical tasks are repetitive and should be facilitated by AI with the end goal being to treat more patients in a better way.
+In this particular project, the goal is to determine which patients are sick and which are not based on X-ray images of their chest. If patients are sick, the output should state which pathology they suffer from (from a list of 15 different pathologies). Note that patients can suffer from multiple illnesses at the same time. By also highlighting which part of the X-rays drove the output, this model can help doctors make faster and more informed decisions. I would like to think that some of the medical tasks are repetitive and should be facilitated by AI with the end goal being to treat more patients in a better way.
 
 The code is available [here](https://github.com/ndhers/My-Portfolio/tree/main/Medical_Imaging_Diagnosis).
 
@@ -97,9 +107,9 @@ More details can be found [here](https://github.com/ndhers/My-Portfolio/tree/mai
 
 ![img not available](https://raw.githubusercontent.com/ndhers/My-Portfolio/main/NLP_TimeSeries/imgs/transformer.png)
 
-For numerous academic projects on time-series analysis, we had to deal with data that was irregularly sampled. This is especially true in the field of healthcase or when dealing with survey data. This poses a large problem for time series analysis and forecasting, as deep learning models often use fixed-dimension representations. In this project, the dataset consists in time series data from patients in ICU and the goal is to predict whether they would survive or not. The collected data per patient spans multiple days and multiple variables (e.g. temperature, weight, BP, etc). Note patients, because they stay in ICU for various amounts of time, have different amounts of data available. 
+For numerous academic projects on time-series analysis, we had to deal with data that was irregularly sampled. This is especially true in the field of healthcase or when dealing with survey data. This poses a large problem for time series analysis and forecasting, as deep learning models often use fixed-dimension representations. In this project, the dataset consists in time series data from patients in ICU and the goal is to predict whether they would survive or not. The collected data per patient spans multiple days and multiple variables (e.g. temperature, weight, BP, etc). Note that patients, because they stay in ICU for various amounts of time, have different amounts of data available. 
 
-Dealing with these issues, required looking at processing techniques that can pad such time series sequences the same way sentences are padded in Natural Language Processing. Using NLP-inspired models like Transformers that can attend to potentially infinite time steps in the past eliminated the need to have time as a separate input feature. 
+Dealing with these issues required looking at NLP-inspired pre-processing techniques such as sequence padding. Moreover, the use of NLP-inspired models like Transformers was shown to eliminate the need to have time as a separate input feature. 
 
 The goal is find ways to efficiently and accurately tell whether ICU patients will survive or not given the data sampled in the past. 
 
