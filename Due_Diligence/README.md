@@ -7,10 +7,10 @@ The data looks at transaction information from 9 different restaurant chains: Ch
 Since the dataset was too large, I could not upload it here. I will provide a quick overview instead. There are four different data tables.
 Each of the four tables serves a different purpose:
 <ul>
-<li>Qsr_case_study_transactions_20230504 looks at order information. For example, it includes information about the order price, discount, item bought and quantity.</li> 
-<li>Qsr_case_study_merchants_20230504 looks at restaurant chain information. This provides more information into what each merchant sells.</li>
-<li>Qsr_case_study_users_20230504 looks at customer information. This provides information on users who have placed an order and includes data such as the state they live in, their gender, their income bracket, etc.</li>
-<li>Qsr_case_study_descriptions_20230504 provides descriptions of the items being bought and sold.</li>
+<li>Qsr_case_study_transactions looks at order information. For example, it includes information about the order price, discount, item bought and quantity.</li> 
+<li>Qsr_case_study_merchants looks at restaurant chain information. This provides more information into what each merchant sells.</li>
+<li>Qsr_case_study_users looks at customer information. This provides information on users who have placed an order and includes data such as the state they live in, their gender, their income bracket, etc.</li>
+<li>Qsr_case_study_descriptions provides descriptions of the items being bought and sold.</li>
 </ul>
 
 The code for the analysis is included in this [notebook](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/main.ipynb). An excel sheet with the key output and figures is found [here](https://github.com/ndhers/My-Portfolio/blob/main/Due_Diligence/output.xlsx).
